@@ -23,7 +23,7 @@ Se o link não funcionar, nada quem uma pesquisa rápida no google "download mir
 - Baixe o projeto;
 - Jogue o executável (**mirc.exe**) do mIRC dentro da pasta **alivescript5** que você baixou (_eu sempre colocava no c:\alivescript5_);
 - Execute o mirc.exe (provavelmente vai abrir uma tela para comprar o mIRC, clique em "continue");
-- Se aparecer a mensagem na janela "Script inicializado", tudo deu certo
+- Se aparecer a mensagem na janela "Script inicializado", tudo deu certo.
 
 ### Como programar nisso?
 
