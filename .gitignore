@@ -1,0 +1,15 @@
+# Ignore o mIRC.exe sempre!
+mirc.exe
+
+# Ignora seus logs de bate-papo, downloads, canais
+/logs/*
+/downloads/*
+/channels/*
+
+# Ignora arquivos de configurações pessoais
+/configs/
+toolbar.ini
+urls.ini
+
+# Ignora o que tu quiser de arquivos
+# Só incluir abaixo
