@@ -13,3 +13,4 @@ urls.ini
 
 # Ignora o que tu quiser de arquivos
 # Só incluir abaixo
+.DS_Store
