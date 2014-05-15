@@ -1,0 +1,7 @@
+;-------------------------------------------------------------------------------------------------------------------------------------
+; Arquivo de aliase gerado dinâmicamente pelo o Alive Script. Se preferir adicionar seus aliases por aqui, LEIA ANTES:
+;
+; - **NÃO** use múltiplas linhas
+; - CUIDADO ao utilizar esse editor!
+;-------------------------------------------------------------------------------------------------------------------------------------
+/palmerda say merda de time hahaha

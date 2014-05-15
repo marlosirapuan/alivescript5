@@ -1,0 +1,121 @@
+;-------------------------------------------------------------------------------------------------------------------------------------
+; Como fazer um alias com contador personalizado?
+;
+; /meu-atalho inc %cont | /say hahaha ( risada numero %cont )
+;
+; (eu usei um nome qualquer para a variavel %cont, voce poderia usar outra também,
+; por exemplo: %meu-contador ou %blah ou outra palavra qualquer que não contenha
+; espaços)
+;
+; OBS: se voce quer deixar colado o %cont com o ) use um $+ para uní-los,
+; por exemplo: (risada numero %cont $+ ) ou ( $+ %cont $+ )
+; 
+; se voce quer mais de uma linha, voce pode usar chaves para faze-la, por exemplo:
+; /meuatalho {
+;  /say linha1
+;  /say linha2
+;  /say linha3
+; }
+;
+; ou usar a barra '|', por exemplo:
+; /meuatalho /say linha1 | /say linha2 | /say linha3 | /say linha4 (e assim sucessivamente)
+;
+; Se precisar de mais alguma ajuda pequena sobre aliases, nos procure no #Alive
+; 
+;
+; *** Os textos acima estão como comentários devido ao ';' no início de cada linha, se você vai
+; utilizá-los, cole-os abaixo da próxima linha e retire o ';' (veja os exemplos)
+;-------------------------------------------------------------------------------------------------------------------------------------
+
+;exemplo com 1 linha
+/oie2 say 7Hello my friends!?!? tudo2 100% ?
+
+;exemplo com com 2 linhas
+/oie1 {
+  say 12Olááááá!!
+  say 4Tudo bom, povaum!? 5:P
+}
+
+;exemplo com 2 linhas
+/oie3 say 4Oiii!! | say 7Oiii!
+
+;exemplo com contador
+/oie4 inc %cont-oie | say 6O2ii10ii!!! numero ( $+ %cont-oie $+ )
+
+;--
+
+/dedao /say 1\,,/_ (1404_14o1) _\,,/
+
+/dedao2 /say (0_o) _\,,
+
+/heu !say uhOEKoehaoKSAEHaoek... mUitO bOm!
+
+/lol !say 13LOL
+
+lee {
+  /say 3 73_\1o         3K10ONOHA
+  /say    3\_7_     3S10ENPUU!!!
+  /say    7/
+}
+
+lee2 { 
+  say 3  7 1o3/__7/     3K10ONOHA
+  say    3/  7<    3S10ENPUU!!!
+}
+
+lee3 {
+  say 3 <1o3__        3K10ONOHA
+  say   3\_7_      3S10ENPUU!!!
+  say   7<
+}
+
+lee4 {
+  say 1 7 <3__7_      3K10ONOHA
+  say 00_  3/       3S10ENPUU!!!
+  say  3/1o3/
+}
+
+naruto3 {
+  say 1 1° Parte:
+  say 1 7_8o7__/_ 
+  say 1  7 \ 
+  say 1   4U
+  say 1 2° Parte:
+  say 1         7|    7\
+  say 1 8o7/__/ 1  7|\   7/|
+  say 1 7/ 7 <   7/8o7\    8o7\\
+  say 1   4ZU   4MA   4KI
+  say 1 3° Parte
+  say 1 8 o7/_  4NARUTO
+  say 1  7|/   4RENDAN!
+  say 1 7/
+}
+naruto { 
+  say        1o        1 o
+  say 0......1<|>0...1o0..1 <|>
+  say 0......1/ \0.1 <|>0.1 / \
+  say 0.......1o0...1/ \0..1  o
+  say 0......1<|>0......1     <|>
+  say 0......1/ \0...1o0..1  / \
+  say 0...........1/|\ 
+  say 0...........1/ \
+  say 
+  say 0.1,7KAGE BUSHIN NO JUTSU
+}
+
+naruto2 {
+  say                   2,0|   2,0 \      2,0 o/_  7,0 U
+  say 2,0 _o__/_  2,0 o/__/  2,0 |\  2,0 /|     2,0 |/   7,0 ZU MA KI
+  say   2,0 \     2,0 / 2,0 <  2,0 /o\   2,0 o\\  2,0 /     7,0 NARUTO RENDAN!
+}
+
+gaara { 
+  say        5 :. Gaara!
+  say   o   5 ::: Barreira de areia!
+  say  <|> 5 .:::
+  say 5./5.\5..::.:
+}
+
+cascao say 1*1,7:]0,0 4,8_1,4#7,0¦
+porrada say (o.x)@---('.'@)
+porrada2 say (o_O)C=('.'Q)

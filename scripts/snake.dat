@@ -1,0 +1,20 @@
+snake.player
+SnakePlayer
+snake.current
+6
+snake.level
+1
+snake.points
+0
+snake.direction
+left
+snake.game
+off
+snake.reddot
+60 120
+snake.highscore
+Hafuk 500 	 FiberOPtics 150 	 hixxy 100 	 Mpdreamz 50 	 JulianC 20
+snake.eaten
+1
+snake.pos
+100 100

@@ -1,0 +1,450 @@
+*** Versão 5.0 (10/10/2010)
+	1. Novo icone. (Desenvolvido por Gustavo - http://www.realpub.com.br)
+	2. Rotinas do script totalmente reescrita para uma melhor performance no geral.
+	3. Retirado um monte de coisa inutil do script que só fazia travar e/ou deixar lento o sistema todo.
+	4. Nova forma de sessão para as diversões. Agora será carregado um Menu separado para um melhor aproveitamento do seu entretenimento.
+
+	1. Corrigido bug no anti-idle quando estava em mais de 1 rede aberta e uma caía, aparecia isso "* /raw: não conectado a um servidor* (Bug reportado por MaxellMarshall)
+	2. Corrigido bug no editor de notify.. ainda ficava mostrando &tempo& :P (Bug reportado por Calleb)
+	3. Adicionado opção "Explorar Pasta..." no menu [Configuracoes/Opcoes] para administrar a pasta do script facilmente..
+	4. Voltado opção para desligar janela de @Onotices.. há quem não goste, acredita? (Está lá nas Opções Gerais > Principal)
+	5. Corrigido bug no timestamp em casos de /notices..
+	6. Corrigido errinho no menu da lista de nicks.. as opções dos services estava pedindo canal sempre.
+	7. Mensagem de auto-voice (!voice) agora pode ser editada (Sugestão por jaaloom)
+	8. Ops.. esquecí de fazer o comando /cjoin hehe.. só estava o /ajoin 
+	9. Corrigido bug no autojoin ao identificar se usasse a auto-identificação avançada.
+	10. Retirado uma rotina do script que estava dando conflito com o jogo Tanks..
+	11. Corrigido bug no menu Desconectar -> Trocar de Servidor.. simplesmente não conectava (Bug reportado por Poderoso)
+	12. Corrigido bug na janela de LocalNotices.. não estava funcionando a opção lá nas Opções Gerais.. (Bug reportado por Eduardo)
+	13. Corrigido bug quando trocava de nick aparecia às vezes "Hey monkey, nick não encontrado" (Bug reportado por Calleb)
+	14. Agora quando você abre o script pela a primeira vez, ele pede o nick para usar antes de conectar.
+	15. Agora o script está sendo escrito no Windows Vista Home Premium
+	16. Corrigido bug no away. A opção de 'tirar op, exceto nos canais' não estava funcionando. (Bug reportado por Seguchi)
+	17. Corrigido o address do Nickserv na rede de irc Rizon. Não funcionava se você separada por virgulas e espaços.. (Bug reportado por Mozen)
+	18. Novo mIRC 6.31!
+	19. Toolbar do novo mIRC está tão bonita que deixei ela como default do tema mIRC Plus hehe.. a antiga continua na pasta sistema\
+	20. Agora com duplo-clique na lista de notify (treebar), será aberto PVT.. funções como se fossem numa nicklist no canal..
+	21. Novos ícones 'modernos' para a statusbar.
+	22. Corrigido erro ortográfico no... CORRETOR! rs.. estava "maíscula" em vez de "maiúscula".. (Bug reportado por j0w)
+	23. Adicionado autokick badchannel (canais proibidos)
+	24. Corrigido bug que lhe kickava caso você banisse alguém que estivesse em sua própria protect list.. 
+	25. Voltado o autokick (e semi) para clones.. (Sugestão por j0w)
+	26. Criado um hotlink para kickar/banir os clones quando este está ativado nos autokicks do canal. (Sugestão por j0w)
+	27. Adicionado total de Pvts geral e do dia corrente no menu 'Usuário' na janela de status.
+	28. Corrigido pequeno bug no /usermodes (Bug reportado por unscarred)
+	29. Readicionado a opção "Info (Quem botou)" no menu de Tópico do canal. Tinha retirado ela não sei por quê! (Sugestão por vAl)
+	30. Adicionado opção para desligar os flash (pisca) do script. (Sugestão por vAl)
+	31. Statusbar melhorada e reescrita por Teco (Tiago Manuel Ferreira / Portugal / PTnet)
+	32. Adicionado suporte de cores aos Admins(&) e Owner(~) - '!' na IRCHighway - nos canais.
+	33. Corrigido bug no corretor ortográfico quando os textos terminassem com alguns caractéres das carinhas.. exemplo: D, i, P etc.. (Bug reportado por Waltinho)
+	34. Jogo Tanks agora é nativo do script.
+
+
+*** Versão 4.1 (10/10/2007)
+	1. Corrigido bug no /kn quando colocava um motivo ele não aparecia. (Bug reportado por Rosemberg)
+	2. Corrigido bug no /lusers. (Bug reportado por eduardo)
+	3. Corrigido bug no editor de timestamp que não estava sendo setado o que você definia (Bug reportado por Calleb)
+	4. Corrigido bug no Editor que se apagasse todo o campo, ele bugava (Bug reportado por AyrlonN_FLA)
+	5. Corrigido bug * /background: arquivo não encontrado 'C:\ARQUIV~1\Alive' (linha 133, updt.mrc). (Bug reportado por eduardo)
+	6. Corrigido bug no anuncio de away para escolher em que canais anunciar. Só se aplica aos canais do status (rede/servidor) ativo.
+	7. Arrumado os comandos /who #canal, /who server... mals rs..
+	8. Agora o script verifica online o servidor de arquivos para atualização do script. IMPORTANTE ATUALIZAR.
+	9. Corrigido bug no Editor de usuário (/user)
+	10. Corrigido bug no Editor de tópico
+	11. Agora o auto-oper só executa depois que identificar seu nick (Sugestão por eduardo)
+	12. Corrigido bug no editor de notify quando usava &hora& não retorna o horário. (Bug reportado por Calleb)
+	13. Corrigido bug no away em todas as redes. Quando voltava o nick não mudava (Bug reportado por Calleb)
+	14. Novo Editor de Eventos (/eventos)
+	15. Movido o arquivo listedit.txt (editor) para a pasta configs\
+	16. Adicionado botão "!" nas configurações de sons (F2 > Sons) para ver uma demonstração dos mesmso (Sugestão por Sterminator)
+	17. Adicionado opção para escolher som quando abrirem PVT contigo visto que na opções do mIRC não existe (Sugestão por Sterminator)
+	18. Corrigido bug quando você ativava a opção para usar cores do mIRC nos eventos e alguém era kickado. Não estava mostrando a mensagem (Bug reportado por Calleb)
+	19. Voltado som quando conecta. Pode ser alterado em Ferramentas > Configurações > Sons
+	20. Corrigido bug no editor da mensagem de notify quando o nick saía do IRC.. (Bug reportado por Calleb)
+	21. Corrigido bug quando colava um texto com mais de uma linha.. aparecia como se o /user estivesse ligado :P
+	22. CARALHO, É MUITO BUG! PUTA QUE PARIU!
+	23. Adicionado sistema de tabulação no /user
+	24. Corrigido bug na janela de MemoServ que não estava aparecendo na editbox o comando READ LAST quando chegava mensagem nova
+	25. Adicionado editor de whois (/whoisedit). (Sugestão por eduardo)
+	26. Corrigido bugs relacionados ao comando /stats (Bug reportado por eduardo)
+	27. Melhorado o auto-update..
+	28. Retirado o somzinho chato de quando era encontrado no arquivo de update...
+	29. Diminuído a dialog do Alive Update
+	30. Adicionado pequeno sistema de feeds! Use o comando /feeds para configurá-lo (Rotina por blue-elf, adaptada por mim)
+	31. Alterado no quit .com.br para .net :P
+	32. Adicionado botão para abrir um mp3/wma pelo o player interno. (Sugestão por eduardo)
+	33. Corrigido bug quando saía novos arquivos de correção. Apareciam todos os balões de uma vez só :P
+	34. Adicionado o comando /youtube <video> para fazer busca no YouTube Brasil rapidamente (Sugestão por Calleb)
+	36. Corrigido bug quando usava /rec e aparecia * bnc.mrc não encontrado (Bug reportado por vinicius_DM)
+	37. Voltado a statusbar.. achei uma .dll que funciona com o novo mIRC sem crashear.. (/statusbar)
+	38. Adicionado tabulador de nick. È necessário o /user estar ativado.
+	39. Adicionado tag &rede& no editor da mensagem quando seu nick é citado em algum canal, pvt etc..
+	40. Adicionado LagBar e RamBar.. (Rotina por [Znork])
+	41. Adicionado joguinho Snake. Para jogar basta digitar /snake (Desenvolvido por Mpdreamz)
+	42. Corrigido bug na fonte dos Skins.. estava "sistema" em vez de "System"
+	43. Retirado a dll moo.dll por que alguns antivirus estavam apagando.. :P
+	44. Corrigido possíveis bug no auto-oper (Bug reportado por MaxellMarshall)
+	45. Janela de about com agradecimentos..
+	46. Removido SBNC que estava com pitchuí..
+	47. Corrigido bug no autocor quando escolhe sufixo e prefixo não funcionava em todas as cores (Bug reportado por Sterminator)
+	48. Corrigido bug no contador de risadas (Bug reportado por Poderoso)
+	49. Corrigido bug no anuncio da mp3 (/ame) quando usado num canal com +C (Bug reportado por MaxellMarshall)
+	50. Corrigido bug no botãozinho "-" da repetição de mensagem (Bug reportado por Calleb)
+	51. Corrigido anti-idle para multi server..
+	52. Novo corretor ortográfico. Agora você pode adicionar e remover as palavras..
+	53. Melhorado a opção para colocar ponto final.. caso o texto no final tenha: ?,!,),],-,+,= ele não põe ponto final.. durh..
+	54. Adicionado opção no menu canal para adicionar ou remover o canal ativo como favorito..
+	56. Agora no editor de titulo, ao colocar a tag &hora&, ela ira' aparecer na forma 24hrs.. (Sugestão por Gislaine)
+	57. Corrigido bug quando abria algum link pelo o script em determinadas situaçõe (Bug reportado por Heindall)
+	58. Corrigido erro que não permitia mudar o tópico pelo o editor de tópico caso a pessoa tivesse halfop (Sugestão por Calleb)
+	59. O mesmo de cima para o controle de voice..
+	60. O mesmo de cima para algumas funções de kick, bans etc..
+	61. Corrigido bug no /edittopic quando clicava no preview, dava pitchuí (Bug reportado por Calleb)
+	62. Adicionado o comando /halfop NICK para dar %halfop.. (Sugestão por Calleb)
+	63. Adicionado atalhos /et para Editor de topico e /we para Whois Editor.. (Sugestão por Calleb)
+
+
+*** Versão 4.0 BETA (14/09/2007)
+
+21/08/2007
+	1. Adicionado o menu "Tópicos Personalizados" para você guardar tópicos que você deseja setar facilmente
+	2. Corrigido bug quando você instalava o script em uma sub-pasta da pasta de uma pasta :P
+	3. Renomeado o menu "EntretenimentoWs" para "Entretenimentos"
+	4. Corrigido bug na janela de BotServ.
+	5. Agora o script está utilizando mais os benefícios e opções do próprio mIRC, como o Livro de Endereços (Addres Book) principalmente.
+	6. Agora quando você abre alguma list (Notify, Auto-op, Ignore etc..) pelo o PVT ou Lista de nicks, o script copia o nick selecionado para o clipboard para facilitar na hora de adicionar no Address Book (Livro de Endereços).
+	7. Remodelado TODOS os menus do script. Fiz modificações para opções usadas com mais frequência e RETIREI tudo quanto é duplicação de menu.
+	8. OLHEM mais os MENUS que tem muita coisa lá! Só lá!
+	9. Renomeado uma pá de menus. Sinceramente, eu achei bem melhor assim. Mais fácil o entendimento.
+22/08/2007
+	10. Movido o menu "Editar" para dentro de "Configuração Pessoal"
+	11. Renomeado o menu "Configurações" para "Configuração Pessoal". Nele será configurado tudo que é relacionado ao usuário.
+	12. OLHEM mais os MENUS que tem muita coisa lá! Só lá!
+	13. Os menus bares agora são auto-ajustáveis. Não precisa mais ficar botando coordenadas para ele se alinhar.
+	14. Retirado um monte de opções que eu achei desnecessário e que pesavam o script. Agora está mais limpo.
+	15. Mudado o nome do menu "Utilidades" para "Utilitários". E ele se encontra agora no menu "Ferramentas".
+23/08/2007
+	16. Adicionado opção no AWAY para escolher se os avisos serão mostrados em ACTION (/ame) ou MSG (/amsg). Sugestão de Paulo Vinícius na comunidade do script no Orkut.
+	17. Alterado algumas opções do menu bar superior.
+24/08/2007
+	18. mIRC 6.3 em Português! Traduzido por Chrystoffer.
+	19. Adicionado dialog para serviços da Quakenet.
+	20. Atualizado os Serviços de BOT da rede BRLink. Algumas opções não existiam mais..
+	21. Novo sistema de autojoin. Agora é "Canais Favoritos". Bem similar ao do próprio mIRC (Alt+J).
+	22. Adicionado o comando /cjoin para entrar nos canais favoritos, além do /ajoin
+25/08/2007
+	23. Modificado o visual da dialog de configurações de Ircop.
+	24. Corrigido bug quando marcava para ficar away em todas as redes. Os nicks não estavam mudando e o motivo de volta também não aparecia em todas as redes. (Bug reportado por Calleb)
+	25. Adicionado dialog para seus modos pessoais (/usermodes).
+	26. Corrigido bug na hug list (lista de amigos) quando você escolhia o modo aleatório de um hug..
+	27. Corrigido bug no /user quando ativado. Não soava beep se recebesse mensagens no pvt. (Bug reportado por Sterminator)
+	28. OLHEM mais os MENUS que tem muita coisa lá! Só lá!
+	29. Agora nas dialogs que tiverem /atalhos para acessá-las terão no seu título o respectivo [/atalho].
+	30. Corrigido bug na identificação automática avançada. Não estava mostrando corretamente os nicks.
+26/08/2007
+	31. Mudado o nome do menu "Canal" para // #Canal )), sendo que aparecerá o nome do canal ativo no menu. Entendeu? :P
+27/08/2007
+	32. Corrigido bug no /cnotify para copiar notify de uma versão antiga ou de outro script.
+	33. Refeita algumas dialogs que eu achei feias.. :p
+	34. Contador de tecladas removido do menu utilidades e passado para o PVT com o nick. Em "Informação" > "Nº de Conversas"
+	35. Nova dialog de Opções Gerais.
+	36. Nova aba "Editar..." nas opções gerais. Agora tudo que se edita no script estão lá! Frases, textos, aviso, mensagens, tudo! Ou seja, o menu "Editar.." foi reduzidíssimo.
+	37. Adicionado sistema de anti-idle nas Opções Gerais.
+28/08/2007
+	38. Refeita dialog de votação.
+	39. Para evitar conflitos de atalhos criados pelo o usuário, apaguei várias deles usados no script e deixando só atalhos "úteis".
+	40. Adicionado um novo editor de tópico.
+	41. Retirado opção para ativar ou não janela de Onotices. Sempre estarão ligadas.
+	42. Adicionado opção para quando você receber uma foto por um nick no PVT, a mesma aparecer no fundo da janela de conversa.
+	43. Alterado no menubar PVT a opção "Bob Marley" (onde eu estava com a cabeça pra pôr isso? rs..) para "Ler Log".
+	44. Agora as proteções pessoais estão junto das Opções Gerais.
+	45. Tecla F3 agora é da janela de Onotice.
+	46. OLHEM mais os MENUS que tem muita coisa lá! Só lá!
+	47. Nova dialog de configuração de autokicks. Filtrei algumas coisas.
+	48. Nova dialog de autocor. A outra estava horrível!
+	49. Adicionado opção nas Opções Gerais para usar as cores e formatação do próprio mIRC para os eventos.
+29/08/2007
+	50. Criado uma dialog para mudar facilmente os modos do canal (/cmodo). Atualizado com novos modos: c,C,q,f,K,S etc..
+	51. Movido o "Jogos de Canal" para o menu do canal.
+	52. Corrigido bug para os services funcionar na rede DALNet (irc.dal.net)
+30/08/2007
+	53. Usuários da Quakenet: bem vindos! Agora o script tem suporte à essa maravilhosa rede!
+	54. Corrigido bug nos services na rede Rizon. Lá NickServ, MemoServ, ChanServ só funcionam com /msg antes..
+	55. Adicionado opção para contar ou não o número de kills. (Sugestão por Calleb)
+	56. Adicionado opção no autocor para especificar com as tags &linhas& e &caracteres& do que você já escreveu. (Sugestão por Calleb)
+	57. Movido a opção "Info dos seus nicks" do menu Utilidades para as Opções Gerais (F2 -> Usuário)
+	58. Atualizado a lista de ajuda do script. Tinha muita coisa com informações errada.
+	59. Nova janela de ajuda. Com fundo bem legal.
+01/09/2007
+	60. Agora todas as diversões que continham no menu de PVT e nicklist estão no menu "Diversões".
+	61. Movida a opção "Gerar Nickname" de Utilidades para as Opções Gerais (F2 -> Usuário).
+	62. Movida a opção "Recuperar/Copiar Notify List" de Utilidades para as Opções Gerais (F2 -> Usuário).
+	63. Corrigido bug no sistema de notícias sobre futebol (/futebol).
+	64. Voltado a janelinha com alguns comandos para lhe ajudar.
+04/09/2007
+	65. Nova dialog de away.
+	66. Mudado a tag ICQ do away para Perfil no Orkut.
+	67. Adicionado opção no away para escolher em que canais anunciar o away. (Sugestão por nexus)
+	68. OLHEM mais os MENUS que tem muita coisa lá! Só lá!
+	69. Removido statusbar devido ao novo mIRC entrar em conflito com a .dll usada e por que pesava pra caralho.
+	70. Adicionado imagem de fundo nas janelas de *Serv e Onotices.
+	71. Adicionado opção para editar os dados na dialog de ircops (/ircop).
+	72. Adicionado opção para editar os usuários %HalfOps no /user.
+05/09/2007
+	73. Adicionado opção para escolher que nicks/bots serão mostradas suas mensagens no status (tipo aquele spam chato da brasnet, brlink etc..)
+	74. Atualizado os menus de Ircop na nicklist e no pvt..
+	75. Removido o arquivo Leia-me.txt. Ninguém lia essa bosta.
+	76. Novo sistema de notícias online. Com até 4 notícias simultâneas sempre que você se conecta ao IRC.
+	77. Novo servidor padrão para o script: irc.CorporationX.com.br - Mais estável e sem lag.
+10/09/2007
+	78. Adicionado um menu de atalhos exclusivos do Corinthians.
+	79. Corrigido bug no pvt quando colava um texto colorido e o autocor estivesse ligado (Bug reportado por r3n4to)
+	80. Novo tema mIRC Plus.
+11/09/2007
+	81. Agora em vez de mostrar só os canais em comum com um nick, o script mostrará mais informações como número de pvts, endereço, hora etc.
+	82. Adicionado as tags &pvt& e &totalpvt&, número de pvts do dia e número total de pvts respectivamente na Auto mensagem no PVT (/apvt)
+	83. Adicionado opção para escolher a mensagem (notice) quando alguém der whois em você. (Sugestão por fzn)
+	84. Adicionado opção para escolher a mensagem (notice) que é enviada quando alguém cita seu nick no canal ou pvt enquanto vocêe está away. (Sugestão por fzn)
+	85. Adicionado atalhos: /google TEXTO e /wiki PALAVRA para busca rápida no Google e Wikipedia.
+	86. Adicionado um pequeno sistema de Dicas (o famoso "você sabia?"). Pode ser acessado pelo o comando /dicas
+	87. Alterado o nome "Shit List" usado no script para "BlackList". Sei lá, achei melhor assim.
+	88. Novo ícone padrão do script.
+13/09/2007
+	89. Adicionado vários aliases para o Corinthians (enviadas por vAl)
+	90. Agora ao anunciar uma mp3 em todos os canais, ele mostra para todos os canais de todas as redes abertas. (Sugestão por Calleb)
+	91. Adicionado o comando /corinthians para abrir a janela de aliases exclusivas do Timão. (Sugestão por seguchi)
+
+
+
+*** Versão 3.6 BETA2 (15/04/2006)
+
+1. Corrigido bug na completação de nick que aparecia duplicada.
+2. Por padrão, a opção para atalho ao conectar foi desabilitada.
+3. Por padrão, a sidebar também está desabilitada.
+4. Por padrão, o alinhamento das janelas também está desabilitada.
+5. Adicionado um sistema de notícias dos times brasileiros de futebol! Genial hehe.. /futebol
+6. Corrigido bug na recuperação da notify list, o script não estava atualizando a lista de nicks. (luis_claudio)
+7. Por padrão, o barpvt esta desativado.
+8. Foram adicionadas e melhoradas algumas coisas no AliveFindown: opção no fdsetup para enviar pelo nick ou enviar pelo ip, opção para anunciar arquivos e uma dialog para configurar o tempo de anuncio de arquivos e a mensagem.
+9. Corrigido bug na /notify quando usado via comando para adicionar alguem.
+10. Corrigido bug quando você fechava um download da atualização sem que ele terminasse, ficava aparecendo 200 mensagens no status. (Desespero_Urbano)
+
+*** Versão 3.6 BETA1 (02/04/2006)
+
+1. Eu apaguei sem querer um dia aki a pasta system\ do script! Aí não lembro o que mudei e o q adicionei desde esse dia uehuieh  ;p
+2. Adicionado sistema de agentes da microsoft! Podendo configurar os agentes instalados no seu pc com animações, ajudas etc..
+3. Adicionado um sistema de Mensagem Automática no PVT.. útil para quem gosta de dizer em quantos canais está, quantos pvts etc.,,.
+4. Corrigido bug no 'tirar ops nos canais' ao ficar away.. se voce só tirasse o OP, sem o voice ele setava um modo no canal muito louco.. (não lembro o cara q me reportou isso! perdi qdo apaguei a pasta system tb :// sorry)
+5. Tecla F1 para risadas aleatórias vem agora por padrão ATIVADA. :D
+6. Corrigido bug nos aliases dentro da janela de @Onotices..
+7. Corrigido bug nos brackets (/user) quando ativado dentro de uma conversa via DCC CHAT. (c0de)
+8. Corrigido bug nos /logs caso você habilitasse a opcao no mIRC para separar por redes/criar pasta. (luis_claudio)
+9. Novo ícone para o script. Também baseado no South Park.. mas não será mais o Cartman.. e sim um ae que eu criei :).. Com o tempo vocês irão se acostumar,...
+10. Adicionado um sistema de troca de arquivos. Batizado de 'Alive Findown'.. a troca/busca de arquivos será feita no canal #AliveFiles :]
+11. Novos trechos de músicas:
+	* Redemption - Transcendence
+	* Dream Theater - Space Dye Vest
+12. Adicionado opção para configurar modos pessoais ao conectar, podendo ser acessado com /modes
+13. Reposto o plugin para anunciar automaticamente uma musica tocada pelo o WINAMP no script. Vá em Controle de MP3 > ANUNCIAR AUTOMATICA para saber mais.
+14. Adicionado a opção "Auto comandos" no menu "Canal"; serve para digitar comandos basicos no canal e ele fazer o comando.. exemplo: +o NICK (da OP para o nick)
+15. Addon Stat v1.95 (Informações do PC) agora já vem instalado por padrão.
+16. Nova notify list, agora separada por redes.
+17. Adicionada uma segunda toolbar onde ficarão algumas opções do script.. bem cool. ;P
+18. Mudado o pacote de ícones para algumas opcoes e toolbar do script: GARTOON PACK - http://art.gnome.org
+18. Quando voce vai adicionar alguem da nicklist na sua lista de notificacao (notify) o script ja bota a rede atual como marcada la.. com isso facilita as paradinhas e pá e tal.
+19. Devido a novas opções, foi criada mais uma aba nas Opções Gerais: "Diversos" (c0de)
+20. Adicionada opção em 'Diversos' nas Opções Gerais para desativar o flash (pisca) de quando voce recebe msg/dcc/chat etc.. (c0de)
+21. Corrigido bug quando você colava algo com mais de uma linha e a opção do /user (bracket) estivesse ativada. (c0de)
+22. Corrigido mensagem duplicada no pvt quando o nick dava quit. (by c0de)
+23. Adicionado opção para personalizar a mensagem de quando citam seu nick na opção /user bracket. (c0de)
+24. Adicionado o consumo de bandwidth usado em sua conexão corrente na statusbar no lugar de 'servidor', visto que o mesmo fica no título. (c0de)
+25. Adicionado opção para carregar arquivos .m3u (playlist winamp) pelo Player interno.
+26. Adicionado Icones de NickList, opção em que você pode substituir a lista de nicks dos canais por ícones. Usando um modo inédito (eu axo) na opção para a escolha dos ícones.
+27. Adicionado um negócio para o script executar comando adicionados dentro da opção de Repetir Mensagem. Mas ele executa independente de onde tiver setado o canal. (Win_Crash)
+28. Adicionado uma opção melhor para alinhamento de janelas. (nnscript.de)
+29. Adicionado menu Interface em '[Comandos/Opcoes]' para facilitar na sua configuração.
+30. Adicionado Editor de cores do Sidebar por RGB (Menu Lateral onde ficará a Notify List).
+31. Adicionado proteção de canal para quem usar comandos com $SNICKS. (luis_claudio)
+32. A Sabrina Parlatore eh muito gata,, puta que pariu.
+33. Corrigido bug no away que você respondia o notice (quando está away) quantas vezes o nick pedisse no canal. (luis_claudio)
+34. Mudado a pasta de icones variados do script. Agora ela está melhor localizada na pasta principal de 'Icones'.
+35. Devido há algumas frescurites da brasnet, foi mudado a forma de clonescan nela.. (luis_claudio)
+36. E no clipboard da janela de clonescan, agora o script copia o host de onde vem os clones..,
+37. Novo sistema de atualização automática para o script. Agora separado por sessões, mais dinâmica e bonitímm.. :D
+38. Adicionado novo sistema de logs de DCC. Bem mais organizado.
+39. Retirado a parada de DCC incompletos... moh bagunça. :P
+40. Adicionado o Alive Browser.. um compacto mas útil navegador interno no script.
+41. Você pode usar /url <site> para abrir qualquer site pelo o navegador do script. (Angel_Michael)
+42. Adicionado hotlinks para adicionar contatos do msn pelo o script. Por exemplo, se o user poe o msn dele: nick@hotmail.com, quando você clicar duas vezes o script tenta adicionar em seu msn.
+43. Agora você pode ficar away em todas as redes abertas, com algumas limitações como: escolha de nick em cada rede, op nos canais, msg nos pvts.. :P (DvD)
+44. Mudado a dialog do Editor de Eventos,, ta 'mais melhorzinha'.
+45. Adicionado Editor de cores via RGB para o mini player na toolbar secundária.
+46. Corrigido erro na contagem de caracteres e linhas escritas suas. O script só estava contando mensagens no canal e não do pvt e chat..
+47. Adicionado opção para escolher 'Pensamentos' como frase de inicio do script. Por padrão vem ela ligada.
+48. Agora no comando /b ele bane o nick com a forma escolhida no Ctrl+F1 (/kb, /kbt, etc..)
+49. Adicionado menu de 'Programas' favoritos no menubar. Lá você pode escolher 5 programas favoritos para abrir facilmente pelo o script.
+50. Logs de conversas no canal/pvt agora vem ligada por padrão, além de serem separadas por pasta e rede.
+51. Corrigido bug em alguns piscas piscas do pvt/chat :P (luis_claudio)
+52. Adicionado addon SBNC Manager by sphoo. Quem não sabe o que é nem chegue perto dessa opção..
+53. Corrigido bugzozo no /onotices sem parametros,. (calleb)
+54. Corrigido escrita YWZ Colorida numero 2. (luis_claudio)
+55. Adicionado mais 3 pacotes de icones para a toolbar: Jaffa, Moonshine e Megapack (Retirados do site www.darkproject.com)
+56. Adicionado opção no menu de Interface para escolha dos tipos de botoes usados nas dialogs do script. Bem legal pra mudar quando enjoar de tal modo..
+57. Corrigido bug quando clicava em 'Ler LOG desse Canal' no menu Canal.
+58. Adicionado suporte ao GameServ, novo BOT de jogos da Rede BRASnet.
+59. Adicionado opção para localizar Seriais e Chaves de softwares via script. Buscando dados do site www.serials.ws (Rotina by Token)
+60. Agora você pode editar a mensagem do Papagaio List. (Pedro_Mussio)
+61. Adicionado em entretenimentows o Alive Games.. uma opção onde será atualizada sempre uma lista de jogos em flash para ser jogado via web!
+62. Corrigido bug do delay do anuncio do away. Ele também estava dando delay no anuncio de MP3. (Win_Crash)
+
+
+*** Versão 3.5 FINAL (18/06/2005)
+
+1. Corrigido brackets que nao estavam funcionando nos chats e aliases. Caso adicione pessoalmente pelo o editor e funcione com brackets.. coloke 'sayy' e nao 'say'.. (c0de)
+2. Corrigido também coisas relacionadas a essa mesma opção dos brackets.. /user
+3. Adicionado opção em 'Whois/Modos' para configurar os modos que irão inibir cores nos canais. Separado por Rede, visto que algumas não usam +C,+c para retirar as cores.. (IsNaiTeR)
+4. Adicionado novo tipo de efeito no autocor.. 'Caractér Entre Espaços'.. pra kem gosta de deixar o texto assim, por exemplo: escrita¸assim¸bem¸tosca
+5. Agora no ANTIPVT (/antipvt) você pode usar &pvt& e &canal& para especificar o numero de pvts e canais abertos contigo..
+6. Adicionado opção para que o aviso do semi-kick apareça na janela ativa.
+7. Mudado a porta padrão(6667) para a Quakenet.. galera reclamou q nao conectava la :P
+8. Corrigido um bugzinho q ocorria no Quakenet caso seu nick fosse registrado.. (c0de)
+9. Corrigido bug no editor de quit que ficava um espaço grande sempre no final (IsNaITer)
+10. Corrigido 'automáticamente' pra 'automaticamente' (c0de)... ¬¬
+11. Adicionado opção na auto-identificação avançada para escolher senha do nick-away. (luis_claudio)
+12. Adicionado Toolbar Editor. (Desenvolvido por narco)
+13. Corrigido bug na dll que era usado para mostrar as musicas com a tecla F7 !!! FINALMENTE POORRRAAAAA ! Viva 'WA_Link.dll' !
+14. Adicionado Editor de Eventos. Agora você pode editar por completo as mensagens de "Entrou", "Saiu", "Quit" etc.. e salvá-las. (c0de)
+15. Novos trechos de musicas:
+	* Shadow Gallery - I Believe
+	* Threshold - Mission Profile
+16. Adicionado um novo Tradutor Online. Desenvolvido por LemmonButt.
+17. Novo Wallpaper padrão: Final Fantasy 9
+18. Corrigido bugs referentes ao desempenho do script.
+19. Mudado o visual do script em si. Eu achei mais agradável :P
+20. Corrigido bug na escolha de um Skin. As vezes nao setava a cor.
+21. Adicionado o horário que o tópico foi setado quando voce entra no canal (c0de)
+22. Adicionad Timestamp no editor de brackets: /user (c0de)
+23. No anuncio da mp3 do winamp pelo o script (F7) ele anuncia pelo o nome do arquivo. Caso queira pela a ID3, ligue essa opção no MP3 Player(F6 > Outros > Informações > ID3).. (calleb)
+24. No semi-kick agora é mostrado o nome do canal em que o infrator está.
+
+*** Versão 3.5 BETA (20/01/2005)
+
+1. Adicionado a fonte "Comic Sans MS".. a preferida de quem usa MSN :P
+2. Corrigido o uptime que estava informando errado. Refiz a setup um tempo depois de ser lançada, mas alguns ainda estavam com a informacao errada.
+3. Agora você pode escolher a cor do nick que você conversa em PVT na opção /user (sugestao por veRty e testado com atoo)
+4. Corrigido as mensagens que apareciam de forma normal mesmo com a opção /user ativada.
+5. Adicionado a lista de Ignore junto à de Auto op/voice, protect e Notify. Aumentado tambem o tamanho dela.
+6. Lista de notify agora lista primeiro os nicks Online pra depois os Offline.
+7. Adicionado editor da statusbar onde voce pode definir a largura e poder escolher que mostre servidor, ip, ram, hd, nick atual, lag e uptime.
+8. Adicionado 5º espaço de informação na statusbar..
+9. Corrigido bug no anti-spam que nao estava ignorando a pessoa.
+10. Adicionado opcao no anti-spam que ignora, fecha o pvt e te avisa do spam.
+11. Mudado a opção "noticias online" do menu utilidades para "Outros" no menu "[Comandos/Opcoes]"
+12. O script agora masca chiclete tutti-fruti
+13. Aumentado a dialog de pacotes do script.
+14. Corrigido bug quando adicionava + e _  no texto substituido.. ele substituía e tal.. mas nao aparecia na lista 0_o (Bagunceiro)
+15. Adicionado opção para pegar +voice nos canais quando voce entra em away.
+16. Aumentado os milisegundos que o script usava para pegar as informacoes do download de arquivos pelo o script(/pacotes). Em alguns pcs, travavam xP
+17. Adicionado opção no away para escolher um intervelo nas msgs do away na hora de anunciar que voce esta away em varios canais. (`x|h4Ck3R`_`)
+18. Adicionado opção para alterar a mensagem "-NickServ- Senha aceita - voce esta reconhecido." :PPPPPP (luis_claudio)
+19. Editor de Kick e Kill agora em dialog.
+20. Adicionado editor para a mensagem do Gama, Ask e Music Game.
+21. Adicionado diversão "Horoscopo"
+22. Informações dos trechos das musicas de entrada do script agora em dialog
+23. Novos trechos de musicas:
+	* Glory Opera - House Of Flutes (banda brilhante :])
+	* Blind Guardian - Bright Eyes
+	* Dream Theater - Space Dye-Vest
+	* Firewind - Destination Forever
+24. Adicionado tag &artista& e &musica& para o skin de mp3. Para quem gosta de separar o artista da musica quando anuncía. (ThePainkiller)
+25. Corrigido uns pitchuí no anti-ban.
+26. Adicionado /chefe que minimiza rapidamente o script no tray. Útil para quando o seu patrão(caso trabalhe) chegue e voce nao ker q ele veja o ALIVE(!) aberto. (by luis_claudio)
+27. Adicionado opção em nova parte nas opções gerais "Extras" para facilitar a conexao em um servidor. Se voce quizer, nao precisa mais digitar /s irc.nomedoservidor.com.br. Basta /s nomedoservidor
+28. Adicionado opção para habilitar barra de atalhos rapidos de opcoes do script junto ao Menubar Lateral. Tipo uma "toolbar" lateral :P
+29. Corrigido uns textos de avisos..
+30. Opções do menu '][nutilidades' agora estão nas Opções Gerais do script. Aba "Extras"
+31. Adicionado novas sugestões de Identds..
+32. Statusbar agora pode ser mostrada em cima também.. voce escolhe.
+33. Script agora arrasta um trem.
+34. Adicionado hotlink para arquivos eMule mostrados no canal, pvt etc.. "ed2k?//..."
+35. Adicionado opção para voce definir os modos que quizer quando conectar.
+36. Nova dialog para o Editor de Away.. mais organizada e bunitinha.
+37. Melhorado também a dialog do Editor de MP3.
+38. Dado uma melhorada na parte de anti-ban. (Crepusculo)
+39. Melhorado a paradinha de kickar nick banido. (Crepusculo)
+40. Adicionado opção para aplicar /who nos canais em tantos segundos. (Crepusculo)
+41. Agora na janela de onotice sera' especificado por kem e como a pessoa recebeu op, desconectou etc. (Crepusculo ¬_¬)
+42. Agora a janela de logs kicks/bans fika também logada em arquivo .log
+43. Log de kicks/bans agora mostra em q rede foi aplicada a ação.
+44. Corrigido bug na hora de atualizar o skin geral caso voce estivesse em multi-serve.
+45. Adicionado tag &rede& no editor da mensagem de notify list. Util para especificar quando nick estiver online em multi-serve.
+46. Mudado a opcao que ativa os baloes quando o script estiver minimizado. Agora ele ativa quando o script nao estiver ativo.
+47. Devido a desabilitação do /lusers na BRASnet, foi feito uma paradinha pra que mostre as info caso o usuario esteja com modo +o ou +A. (luis_claudio)
+48. Mudado o icone de nicks online e offline da notify list (icones enviados por syswalk)
+49. Agora você pode editar as suas risadas(/addrir) e nao mais ter que remover e depois re-adicionar. (syswalk)
+50. Adicionado contador pra suas risadas(/addrir). Ele nao usa mais o contador do autocor.. (syswalk)
+51. Opção 'pegar OP quando canal ficar sem' nao estava contando nicks em quits.. soh em parts(saiu).. :P
+52. Corrigido errinhos no entrar nos canais depois q se identificar..
+53. Corrigido bug nas janelas de services q se usasse algum /comando la, ele enviava pro service. (zer0-c00l)
+54. Adicionado auto-identificação avançada. Onde voce pode definir notices em q o script deve identificar, aplicar comandos, escolher comando de ghost, service nick e host.
+55. Adicionado tipo "padrão" para as informacoes de nick (/inick). Caso vc escolha algum nick diferente da lista, ele carrega a configuracao padrao.
+56. Agora os nicks dos quits saem com seus respectivos modos contidos no canal. Ex.: [02:22] * Desconectou: +Hafuk (Hafuk@Or0aeFo2.201.3.3.O) (Quit: Doh!)
+57. Nova imagem de fundo para o script.
+58. Criado uma pastas "wallpapers\" em "configs\". O script ira' usar sempre uma dakelas imagens da pasta quando carrega ou inicia o script com o tema mIRC Plus. ** coloque imagens grandes, pois elas serao esticadas **
+59. Corrigido bug no autojoin e outras coisas que nao funcionavam em multi-server quando voce conectava (zer0-c00l)
+60. Agora a shitlist bane com o modo que voce escolher nas Opções de Ops (ctrl+f1) -> "/kb /kbt etc.." (BrUnO_tAbLe)
+61. Corrigido bug na msg de ignore que nao tava substituindo &nick& pelo o nick ignorado. (MythWolf)
+62. Mudado a msg de quit.
+63. Agora voce pode mudar de nick rapidamente com o comando /n nick :P
+64. Corrigido bug no away quando mandava tirar op nos canais (mala_)
+65. Agora voce pode mandar uma mensagem se kizer depois q anuncia a mp3 (Mythwolf)
+66. Adicionado um pequeno tradutor online.. ingles->portugues, portugues->ingles etc.. (marcu)
+67. Adicionado comando '/kn <nick> [motivo]' para kickar/banir apenas o nick. (ARUBA)
+68. Adicionado a fonte "Times New Roman" no skin geral
+69. Adicionado alguns atalhos em opcoes mais usadas que chama outras tb usadas.. facilita o uso (luis_claudio)
+70. Adicionado preview em alguns editores que nao tinham.. (luis_claudio)
+71. Adicionado alguns skins de away e mp3..
+72. Adicionado um simples Editor de Tópico (luis_claudio)
+73. Adicionado atalho /recebido para abrir arquivos recebidos por DCC (syswalk)
+74. Alterado o som quando conecta. Agora eh um 'gritinho' do Hansi Kürsch (blind guardian) do projeto demons & wizards(Fiddler on the Green).. :P
+75. Autojoin mostra qtos canais estao adicionados na lista agora!!!!! 0_0
+76. Adicionado atalho /sayip que informa seu IP. Util para quem quer receber um arquivo pelo o IRC e soh consegue receber por ip..
+77. Por padrão, várias opções do script vao vir desabilitadas para evitar "aaa.. ele fika mandando isso..", "aaa.. como desliga esse trem xato"..
+78. Adicionado botao "Abrir pasta" nos pacotes. (l1ma0)
+79. Retirado Fserve do script. Devido a muitos problemas foi feito uma opção para abrir um Fserve a parte pelo o script. Voce pode baixar um fserve bom no site.
+80. Mudado o menubar do tema mirc plus. Mas o antigo ainda acompanha o script.
+81. Retirado os pacotes que abriam sempre que saia versão nova. Agora só dado o aviso, atualize quem quizer :P
+82. Mudado o icone do script. Agora é o cartman vestido de índio :D
+83. Adicionado opção no PVT para informar seu IP à pessoa. Util para quem soh consegue enviar arkivos por IP..
+84. Adicionado Rádio IRCBrasil no script. Pra voce que gosta... tah ae!
+85. Agora voce pode dar /dns mesmo sem estar conectado (André)
+88. Mudado algumas teclas e funções:
+
+  -> Tecla F7 agora anuncia a musica tocada pelo WINAMP e pelo Player do script
+
+  -> Porém.. caso a musica seja tocada pelo o Player do script, ele anuncia como se fosse o /a3, ou seja, precisa estar ligado o anuncio da mp3 (/a3 on)
+  Se for uma música toca pelo WINAMP, ele vai anunciar normalmente sem precisar estar ligada o anuncio.
+
+  -> Comando /a3 do anuncio nao muda nada.. assima como o anuncio automático (/a3 on)
+
+  -> Complicado? Não.. logo logo você acostuma.
+
+89. Ctrl+F7 passa a ser a janela de Onotice..
+90. Adicionado o identificar &radio& no editor da mp3 para quem quizer anunciar o endereço da radio q esta ouvindo pelo o winamp.
+91. Agora as janelas de ircop @locops, @globops, @kills, @conexoes etc. estão separadas por rede. (DvD)
+92. Adicionado comando /uptime para ver o tempo q seu computador esta ligado. Ira aparecer na janela de status.
+93. Agora voce pode ligar as duas opcoes ao mesmo tempo do autokick de palavrao. (Luis_Claudio)
+94. Agora voce pode escolher se quer que remova a extensão do arquivo no anuncio da musica.
+95. Corrigido bug quando usava sufixo e prefixo em canais com +c ou +C, nao apareciam eles.. (Mr_HaHn)
+
+-
+
+Como não iriam caber aqui todas os textos das versões passadas, foi deixado apenas da
+versão mais recente. Mas você pode ler o resto das versões anteriores no site:
+www.alivescript.com.br
+
+-
+
+*** Versão 1.1 (NumSei/NumLembro/2000)
+
+Primeira versão do script.
