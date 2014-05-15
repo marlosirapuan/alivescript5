@@ -2,6 +2,8 @@
 
 Última versão do script para mIRC que iniciei em 2008~2009, mas parei devido à uma série de fatores. Está público para qualquer um baixar, usar, brincar, estudar etc.
 
+http://marlosirapuan.github.io/alivescript5/
+
 ### mIRC Scripting
 http://pt.wikipedia.org/wiki/Mirc_script
 
