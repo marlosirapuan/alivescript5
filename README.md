@@ -17,7 +17,7 @@ http://pt.wikipedia.org/wiki/Mirc_script
 
 http://www.filehorse.com/download-mirc/3213/
 
-Se o link não funcionar, nada quem uma pesquisa rápida no google "download mirc 6.35" não resolva.
+Se o link não funcionar, nada quem uma pesquisa rápida no google "download mirc 6.35" não resolva. Instale o mIRC em seu computador, pois você precisará do arquivo **mirc.exe** para rodar o Alive Script.
 
 ## Configuração / Instalação
 
